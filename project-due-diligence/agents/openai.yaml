@@ -1,6 +1,7 @@
 display_name: Project Due Diligence
 short_description: Evaluate projects with externally validated diligence
-version: "1.2.0"
+version: "1.2.1"
+author: "st-simon"
 portable: true
 language: zh-CN
 tags:

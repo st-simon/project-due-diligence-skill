@@ -34,6 +34,7 @@ The install target should contain:
 project-due-diligence/
   SKILL.md
   agents/openai.yaml
+  references/due-diligence-case-patterns.md
   references/project-due-diligence-template.md
 ```
 
@@ -71,7 +72,7 @@ $project-due-diligence Analyze this project document and generate a Markdown dil
 
 ## Version
 
-Current skill version: `1.2.0`.
+Current skill version: `1.2.1`.
 
 ## Changelog
 
@@ -91,6 +92,15 @@ Current skill version: `1.2.0`.
 - Add execution/governance checks for management accounts, data-room completeness, internal controls, contracts, licenses, and responsibility matrix.
 - Add external-risk checks for environment, social, land, community, health and safety, ESG, stakeholder, and grievance topics.
 - Bundle `references/due-diligence-case-patterns.md` as a portable case-pattern reference.
+
+### 1.2.1
+
+- Add `author` metadata to `agents/openai.yaml`.
+- Clarify four-layer-to-template-section mapping in `SKILL.md`.
+- Add income quality / QoE checks to the financial section.
+- Add GRM checks for infrastructure, community, public-utility, energy, and government-funded projects.
+- Add Chinese finding-language pattern alongside the English pattern.
+- Add 1-5 scoring rules for weighted investment judgment.
 
 ## Repository Contents
 

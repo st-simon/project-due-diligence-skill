@@ -23,3 +23,9 @@ Decision: upgrade the skill from a business-plan evaluation template into a four
 Rationale: public Deloitte, ADB, and World Bank due diligence examples show that reusable diligence should separate transaction judgment, business-plan reality, execution/governance, and external risk.
 
 Key changes: add case-pattern reference, scope and limitations section, execution/governance checks, external-risk checks, transaction impact matrix, and action plan.
+
+## 2026-06-12 - Release v1.2.1 Review Refinements
+
+Decision: apply the v1.2.0 review findings as a patch release.
+
+Key changes: update install inventory, add author metadata, clarify four-layer section mapping, add QoE checks, expand GRM guidance, add Chinese finding language, and define 1-5 scoring rules.

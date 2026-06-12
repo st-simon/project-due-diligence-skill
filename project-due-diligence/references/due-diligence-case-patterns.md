@@ -51,6 +51,16 @@ Recommended action: What to request, test, negotiate, reserve, or make a conditi
 Status: resolved / open / deal breaker / monitor.
 ```
 
+Chinese report wording:
+
+```text
+发现问题：观察到的事实。
+证据：来源与证据等级。
+交易影响：对估值、条款、时间线或推进决策的影响。
+建议动作：需要要求、验证、谈判、预留或设为先决条件的事项。
+状态：resolved / open / deal breaker / monitor。
+```
+
 ## Limitation Language
 
 Always disclose scope, cut-off date, materials reviewed and not reviewed, whether management or third parties confirmed the information, data-room gaps, external validation gaps, and that forward-looking projections are not assured unless independently verified.

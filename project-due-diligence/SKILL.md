@@ -2,7 +2,7 @@
 name: project-due-diligence
 description: Use when evaluating a new project, startup, investment target, cooperation opportunity, or technical venture with a structured due-diligence template covering project overview, technology, market, commercialization, financial model, risks, missing materials, and investment judgment.
 metadata:
-  version: 1.2.0
+  version: 1.2.1
   portable: true
   updated: 2026-06-12
 ---
@@ -13,7 +13,7 @@ Use this skill when the user asks to analyze, evaluate, diligence, screen, compa
 
 ## Version
 
-Current version: `1.2.0` (2026-06-12).
+Current version: `1.2.1` (2026-06-12).
 
 Portable release: bundles the due-diligence template and public due diligence case patterns under `references/`.
 
@@ -28,6 +28,13 @@ Portable release: bundles the due-diligence template and public due diligence ca
 7. Use `references/project-due-diligence-template.md` as the output structure.
 8. Lead with a concise recommendation: `推荐`, `谨慎推进`, `暂缓`, or `不建议`.
 9. End with deal breakers, price/term implications, highest-priority missing materials, and next checks.
+
+Layer-to-section mapping:
+
+- Layer 1, transaction/investment judgment: quick conclusion plus `## 9. 交易/投资判断`, including transaction impact matrix and action plan.
+- Layer 2, business-plan reality: `## 2. 技术验证`, `## 3. 市场验证`, `## 4. 商业化验证`, and `## 6. 财务测算`.
+- Layer 3, execution/governance: `## 1. 项目概况` team table and `## 5. 执行与治理验证`.
+- Layer 4, external risk: `## 7. 风险清单`, especially compliance and external-risk checks.
 
 ## Required Template
 
