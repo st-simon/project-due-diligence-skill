@@ -2,7 +2,10 @@
 Thumbs.db
 
 .venv/
+venv/
 node_modules/
+__pycache__/
 .tmp/
 tmp/
 *.log
+*.pyc

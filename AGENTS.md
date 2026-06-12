@@ -10,6 +10,8 @@ project-due-diligence/
 
 Do not add private project documents, diligence reports, workspace state, local machine paths, credentials, or customer materials to this repository.
 
+`TASKS.md` is the public roadmap for this shared skill package. Do not use it for private local task state.
+
 When changing the skill:
 
 - Update `project-due-diligence/SKILL.md`.

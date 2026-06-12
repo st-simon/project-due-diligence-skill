@@ -9,3 +9,9 @@ Rationale: the source workspace contains governance state, session records, repo
 Included: the skill package, bundled template, and install documentation.
 
 Excluded: private reports, PDFs, extracted text, workspace state, local virtual environments, and temporary dependency folders.
+
+## 2026-06-12 - Release v1.1.0 Review Improvements
+
+Decision: apply the external review recommendations as a minor version update.
+
+Key changes: stronger install documentation, richer agent metadata, structured team validation, expanded compliance checks, competitor pricing-mode fields, valuation reasonableness scoring, and team weight increased to 20%.

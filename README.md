@@ -21,18 +21,6 @@ The skill requires explicit evidence labeling:
 
 ## Install
 
-Copy or link the skill directory into your Codex skills folder:
-
-```text
-~/.codex/skills/project-due-diligence
-```
-
-On Windows:
-
-```text
-C:\Users\<your-name>\.codex\skills\project-due-diligence
-```
-
 The install target should contain:
 
 ```text
@@ -42,7 +30,15 @@ project-due-diligence/
   references/project-due-diligence-template.md
 ```
 
-If you clone this repository, install from the bundled skill folder:
+If you clone this repository, install from the bundled skill folder.
+
+macOS / Linux:
+
+```bash
+ln -s <repo-path>/project-due-diligence ~/.codex/skills/project-due-diligence
+```
+
+Windows:
 
 ```powershell
 New-Item -ItemType Junction `
@@ -68,7 +64,18 @@ $project-due-diligence Analyze this project document and generate a Markdown dil
 
 ## Version
 
-Current skill version: `1.0.0`.
+Current skill version: `1.1.0`.
+
+## Changelog
+
+### 1.1.0
+
+- Add structured team validation and set team scoring weight to 20%.
+- Add valuation reasonableness as a separate investment scoring dimension.
+- Expand compliance and policy risk checks.
+- Split competitor pricing into sale price and pricing model.
+- Add metadata fields to `agents/openai.yaml`.
+- Normalize install instructions across macOS, Linux, and Windows.
 
 ## Repository Contents
 
