@@ -1,6 +1,6 @@
 display_name: Project Due Diligence
 short_description: Evaluate projects with externally validated diligence
-version: "1.1.0"
+version: "1.2.0"
 portable: true
 language: zh-CN
 tags:
@@ -9,4 +9,7 @@ tags:
   - startup
   - market-validation
   - technology-validation
-default_prompt: Use the project due diligence skill to evaluate this project with the bundled template. Treat project materials as unverified, attempt external validation for material claims, and separate project materials, external information, and missing information.
+  - transaction-diligence
+  - governance
+  - esg-risk
+default_prompt: Use the project due diligence skill to evaluate this project with the bundled four-layer template. Treat project materials as unverified, attempt external validation for material claims, and separate transaction judgment, business-plan reality, execution/governance, and external risks.

@@ -15,3 +15,11 @@ Excluded: private reports, PDFs, extracted text, workspace state, local virtual 
 Decision: apply the external review recommendations as a minor version update.
 
 Key changes: stronger install documentation, richer agent metadata, structured team validation, expanded compliance checks, competitor pricing-mode fields, valuation reasonableness scoring, and team weight increased to 20%.
+
+## 2026-06-12 - Release v1.2.0 Four-Layer Diligence Model
+
+Decision: upgrade the skill from a business-plan evaluation template into a four-layer diligence workflow.
+
+Rationale: public Deloitte, ADB, and World Bank due diligence examples show that reusable diligence should separate transaction judgment, business-plan reality, execution/governance, and external risk.
+
+Key changes: add case-pattern reference, scope and limitations section, execution/governance checks, external-risk checks, transaction impact matrix, and action plan.

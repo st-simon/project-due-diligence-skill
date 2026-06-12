@@ -13,6 +13,13 @@ It uses a fixed diligence structure:
 - Missing materials list
 - Investment judgment
 
+The skill now uses a four-layer diligence model:
+
+- Transaction / investment judgment
+- Business-plan reality
+- Execution / governance
+- External risk
+
 The skill requires explicit evidence labeling:
 
 - Use `外部信息` for facts validated through external sources.
@@ -64,7 +71,7 @@ $project-due-diligence Analyze this project document and generate a Markdown dil
 
 ## Version
 
-Current skill version: `1.1.0`.
+Current skill version: `1.2.0`.
 
 ## Changelog
 
@@ -77,12 +84,21 @@ Current skill version: `1.1.0`.
 - Add metadata fields to `agents/openai.yaml`.
 - Normalize install instructions across macOS, Linux, and Windows.
 
+### 1.2.0
+
+- Add four-layer diligence model inspired by public Deloitte, ADB, and World Bank reports.
+- Add transaction impact language: finding, evidence, transaction impact, recommended action, and status.
+- Add execution/governance checks for management accounts, data-room completeness, internal controls, contracts, licenses, and responsibility matrix.
+- Add external-risk checks for environment, social, land, community, health and safety, ESG, stakeholder, and grievance topics.
+- Bundle `references/due-diligence-case-patterns.md` as a portable case-pattern reference.
+
 ## Repository Contents
 
 ```text
 project-due-diligence/
   SKILL.md
   agents/openai.yaml
+  references/due-diligence-case-patterns.md
   references/project-due-diligence-template.md
 ```
 

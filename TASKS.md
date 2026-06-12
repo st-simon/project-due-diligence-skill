@@ -6,6 +6,7 @@
 - Include the bundled due diligence report template.
 - Add installation and usage instructions.
 - Release v1.1.0 review improvements for engineering metadata and commercial logic.
+- Release v1.2.0 four-layer diligence model and public case-pattern reference.
 
 ## Future
 
